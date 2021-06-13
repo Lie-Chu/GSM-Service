@@ -3,6 +3,10 @@
   "repository": "https://github.com/sunrabbit123/GSM-Service.git",
   "author": "sunrabbit123 <qudwls185@naver.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev ./",
+    "build": "vuepress build ./"
+  },
   "dependencies": {
     "vuepress": "^1.8.2"
   }
