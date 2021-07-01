@@ -8,7 +8,7 @@
 `C#`, `.net`, `window form`을 이용하여 만들었으며,  
 급식 가져오는 것은 `Neis API`를 이용하였습니다.  
 
-### 실행 
+## 실행 
 ![bobnaenwa](https://user-images.githubusercontent.com/64676070/124097277-6175ed00-da96-11eb-977c-31ec2a41eb85.gif)
 
 <comment />

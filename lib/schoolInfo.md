@@ -4,12 +4,12 @@
 이슈와 풀리퀘스트 환영합니다 :D
 
 @ github url : [여기](https://github.com/sunrabbit123/school-info_python)
-### 설치하기
+## 설치하기
 ```sh
 pip install schoolInfo 
 ```
 
-### 시작하기
+## 시작하기
 
 [다음은 예시코드입니다.](./tests/test.py)
 ```python
@@ -64,16 +64,16 @@ if __name__ == "__main__":
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main())
 ```
-### 기능명세
+## 기능명세
 
-#### 공통 인자값
+### 공통 인자값
 
 |Name|Type|Description|
 |:-:|:-:|:-:|
 |`ATPT_OFCDC_SC_CODE`|string|시도교육청코드|
 |`SD_SCHUL_CODE`|string|표준학교코드|
 
-#### 학교 검색 및 기본정보 가져오기
+### 학교 검색 및 기본정보 가져오기
 ```python
 school_data : dict = await schoolInfo.search("광주소프트웨어마이스터고등학교", auth_key={your auth key})
 print(school_data)
@@ -113,7 +113,7 @@ print(school_data)
 }
 ```
 
-#### 급식식단정보
+### 급식식단정보
 
 ```python
 school_data : dict = await schoolInfo.search("광주소프트웨어마이스터고등학교")
@@ -169,7 +169,7 @@ print(meal_data)
 ]
 ```
 
-#### 일정 관련 정보
+### 일정 관련 정보
 
 ```python
 school_data : dict = await schoolInfo.search("광주소프트웨어마이스터고등학교")
@@ -230,7 +230,7 @@ print(schedule_data)
 ]
 ```
 
-#### 학교 학과 정보
+### 학교 학과 정보
 
 ```python
 school_data : dict = await schoolInfo.search("광주소프트웨어마이스터고등학교")
@@ -269,7 +269,7 @@ print(major_data)
 ]
 ```
 
-#### 시간표 정보
+### 시간표 정보
 
 ```python
 school_data : dict = await schoolInfo.search("광주소프트웨어마이스터고등학교")
@@ -322,7 +322,7 @@ print(timetable_data)
 ]
 ```
 
-#### 반 정보 출력
+### 반 정보 출력
 
 ```python
 school_data : dict = await schoolInfo.search("광주소프트웨어마이스터고등학교")

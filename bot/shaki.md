@@ -3,7 +3,7 @@
 
 [여기](https://discord.com/oauth2/authorize?client_id=700605291196186634&scope=bot&permissions=1610837057)에서 초대 가능합니다!
 
-### 기능들
+## 기능들
 1. 간단한 DB 조회로 커스텀 명령어가 가능합니다.  
 2. GSM의 급식을 간편하게 조회가 가능합니다.  
 ![shaki_meal](https://user-images.githubusercontent.com/64676070/124094166-7ac96a00-da93-11eb-856f-cb58076aabad.gif)
