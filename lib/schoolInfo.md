@@ -1,4 +1,4 @@
-# SchoolInfo
+# SchoolInfo(Python)
 
 `Neis API` 기반으로 학교 정보, 급식 정보, 반 정보, 시간표 정보 등 제공 비동기 서비스  
 이슈와 풀리퀘스트 환영합니다 :D
