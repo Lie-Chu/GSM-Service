@@ -7,6 +7,7 @@ module.exports = {
   base: "/GSM-Service/",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   themeConfig: {
+    logo : "https://user-images.githubusercontent.com/64676070/124141211-30acac80-dac4-11eb-93e3-d4d4165f1b74.png",
     sidebar: [
       "./",
       {
