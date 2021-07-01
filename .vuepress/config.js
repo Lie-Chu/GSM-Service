@@ -1,8 +1,8 @@
 module.exports = {
-    title: "Sunrabbit's TIL",
+    title: "GSM-Service",
     description: "GSM Service 모음 사이트",
     dest: "build",
-    base: "/TIL/",
+    base: "/GSM-Service/",
     head: [["link", { rel: "icon", href: "/logo.png" }]],
     themeConfig: {
       sidebar: [
