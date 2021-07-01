@@ -17,3 +17,5 @@
 ![shaki_delete](https://user-images.githubusercontent.com/64676070/124094711-fd522980-da93-11eb-8e16-b8330930d28f.gif)
 
 @ github link : [https://github.com/sunrabbit123/Snow_shaki](https://github.com/sunrabbit123/Snow_shaki)
+
+<comment />
