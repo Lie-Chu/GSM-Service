@@ -1,4 +1,4 @@
-# 밥내놔(데스크탑 앱)
+# 밥내놔(데스크탑 앱, 4기)
 
 @ 코드는 [여기](https://github.com/sunrabbit123/GSM-Service)    
 @ 파일은 [여기](https://drive.google.com/file/d/13GjZLtqfWw78p0TkU65qdvrFhB5X4Cdh/view)  
@@ -11,4 +11,5 @@
 ## 실행 
 ![bobnaenwa](https://user-images.githubusercontent.com/64676070/124097277-6175ed00-da96-11eb-977c-31ec2a41eb85.gif)
 
+@ 개발자 : 양태웅, 오병진
 <comment />

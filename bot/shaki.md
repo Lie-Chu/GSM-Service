@@ -1,5 +1,4 @@
-
-# Snow_Shaki(Discord Bot)
+# Snow_Shaki(Discord Bot, 4기)
 
 [여기](https://discord.com/oauth2/authorize?client_id=700605291196186634&scope=bot&permissions=1610837057)에서 초대 가능합니다!
 
@@ -17,5 +16,5 @@
 ![shaki_delete](https://user-images.githubusercontent.com/64676070/124094711-fd522980-da93-11eb-8e16-b8330930d28f.gif)
 
 @ github link : [https://github.com/sunrabbit123/Snow_shaki](https://github.com/sunrabbit123/Snow_shaki)
-
+@ 개발자 : 오병진
 <comment />
