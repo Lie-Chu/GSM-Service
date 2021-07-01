@@ -1,5 +1,5 @@
 exports.WebList = [];
-exports.AppList = [];
+exports.AppList = ["app/bobnaenwa"];
 exports.LibList = [];
 exports.EmbList = [];
-exports.BotList = [];
+exports.BotList = ["bot/shaki"];
