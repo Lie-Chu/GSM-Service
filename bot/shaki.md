@@ -1,7 +1,7 @@
 
 # Snow_Shaki(Discord Bot)
 
-[여기]에서 초대 가능합니다!
+[여기](https://discord.com/oauth2/authorize?client_id=700605291196186634&scope=bot&permissions=1610837057)에서 초대 가능합니다!
 
 ## 기능들
 1. 간단한 DB 조회로 커스텀 명령어가 가능합니다.  
@@ -15,3 +15,5 @@
 ![shaki_emoji](https://user-images.githubusercontent.com/64676070/124095274-78b3db00-da94-11eb-9814-9d45387aad64.gif)
 6. 디스코드 메세지들을 지울 수 있습니다.  
 ![shaki_delete](https://user-images.githubusercontent.com/64676070/124094711-fd522980-da93-11eb-8e16-b8330930d28f.gif)
+
+@ github link : [https://github.com/sunrabbit123/Snow_shaki](https://github.com/sunrabbit123/Snow_shaki)
