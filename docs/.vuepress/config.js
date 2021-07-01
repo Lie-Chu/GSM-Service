@@ -37,6 +37,7 @@ module.exports = {
         link: "https://github.com/sunrabbit123/GSM-Service/tree/main",
       },
     ],
+    smoothScroll: true,
   },
 };
 
