@@ -20,7 +20,7 @@ module.exports = {
       },
       {
         title : "라이브러리",
-        children : PATH.LibList
+        children : PATH.LibList,
       },
       {
         title : "임베디드",
@@ -38,6 +38,7 @@ module.exports = {
       },
     ],
     smoothScroll: true,
+    lastUpdated: 'Last Updated',
   },
 };
 
