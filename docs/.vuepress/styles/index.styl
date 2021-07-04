@@ -10,13 +10,23 @@ body
 h1
   color $accentColor
 
-// 직접 만든 footer를 꾸미자
+.container
+  +only-pc()
+    width 1200px
+    margin 0 auto
+    
 .siteFooter
+  +only-pc()
+    min-width 1200px
+    padding 20px 0
   background #242729
-  padding 30px 0
+  padding 20px
   font-size 13px
   color #848d95
-  text-align center
+  position relative
+  z-index 30
+  p
+    margin 0
   &Contact
     padding-top 10px
     a
@@ -24,16 +34,21 @@ h1
       text-decoration none
       text-transform none
   
-
-// sidebar를 꾸며보자
 .sidebar
-  background none
-  border-right none
-  bottom none
-  left calc(2%)
-  &-link
-    &.active
-      border-left none
-
+  +only-pc()
+    left 0
+    border-right-style dotted
+    width 320px
+    padding-bottom 100px
+    .sidebar-group-items > li > .sidebar-sub-headers
+      padding-left 0
+      position fixed
+      top 100px
+      right 0
+      width 270px
+      ul, li
+        list-style none
+      a
+        font-size 13px
 .page
   padding-left 0

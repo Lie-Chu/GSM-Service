@@ -5,17 +5,7 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
-    <Navbar
-      v-if="shouldShowNavbar"
-      @toggle-sidebar="toggleSidebar"
-    />
-
-    <div
-      class="sidebar-mask"
-      @click="toggleSidebar(false)"
-    />
-
-    <Sidebar
+  <Sidebar
       :items="sidebarItems"
       @toggle-sidebar="toggleSidebar"
     >
@@ -40,6 +30,17 @@
         <slot name="page-bottom" />
       </template>
     </Page>
+    <Navbar
+      v-if="shouldShowNavbar"
+      @toggle-sidebar="toggleSidebar"
+    />
+
+    <div
+      class="sidebar-mask"
+      @click="toggleSidebar(false)"
+    />
+
+    
   </div>
 </template>
 
