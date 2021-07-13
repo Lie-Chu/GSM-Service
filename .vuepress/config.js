@@ -1,4 +1,4 @@
-const sidebar = require("./path");
+const sidebar = require("../path");
 
 module.exports = {
   title: "GSM-Service",
