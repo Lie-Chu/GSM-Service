@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SchoolInfo(Python, 4기) | GSM-Service</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/GSM-Service/logo.png">
+    <meta name="description" content="GSM Service 모음 사이트">
+    
+    <link rel="preload" href="/GSM-Service/assets/css/0.styles.eb0cbff1.css" as="style"><link rel="preload" href="/GSM-Service/assets/js/app.21cb7742.js" as="script"><link rel="preload" href="/GSM-Service/assets/js/2.26211653.js" as="script"><link rel="preload" href="/GSM-Service/assets/js/18.6cd6b64b.js" as="script"><link rel="preload" href="/GSM-Service/assets/js/10.22b699b2.js" as="script"><link rel="preload" href="/GSM-Service/assets/js/3.06aed8db.js" as="script"><link rel="prefetch" href="/GSM-Service/assets/js/11.aa991e50.js"><link rel="prefetch" href="/GSM-Service/assets/js/12.77ab3a10.js"><link rel="prefetch" href="/GSM-Service/assets/js/13.4c0a161c.js"><link rel="prefetch" href="/GSM-Service/assets/js/14.46a2196e.js"><link rel="prefetch" href="/GSM-Service/assets/js/15.af1f4625.js"><link rel="prefetch" href="/GSM-Service/assets/js/16.f1823e62.js"><link rel="prefetch" href="/GSM-Service/assets/js/17.2e29b4fd.js"><link rel="prefetch" href="/GSM-Service/assets/js/19.b2796227.js"><link rel="prefetch" href="/GSM-Service/assets/js/20.0e812b86.js"><link rel="prefetch" href="/GSM-Service/assets/js/21.b14c836e.js"><link rel="prefetch" href="/GSM-Service/assets/js/4.b2c8f9fa.js"><link rel="prefetch" href="/GSM-Service/assets/js/5.af0f4328.js"><link rel="prefetch" href="/GSM-Service/assets/js/6.e30f1530.js"><link rel="prefetch" href="/GSM-Service/assets/js/7.9ecacd09.js"><link rel="prefetch" href="/GSM-Service/assets/js/8.ea315645.js"><link rel="prefetch" href="/GSM-Service/assets/js/9.298ee944.js">
+    <link rel="stylesheet" href="/GSM-Service/assets/css/0.styles.eb0cbff1.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="global-layout"><div class="theme-container"><aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/GSM-Service/" class="nav-link">
+  About
+</a></div><div class="nav-item"><a href="/GSM-Service/contribute.html" class="nav-link">
+  Contribute
+</a></div><div class="nav-item"><a href="https://github.com/sunrabbit123/GSM-Service/tree/main" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>웹 서비스</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>앱 서비스</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>라이브러리</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/GSM-Service/LIB/schoolInfo.html" aria-current="page" class="active sidebar-link">SchoolInfo(Python, 4기)</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/GSM-Service/LIB/schoolInfo.html#설치하기" class="sidebar-link">설치하기</a></li><li class="sidebar-sub-header"><a href="/GSM-Service/LIB/schoolInfo.html#시작하기" class="sidebar-link">시작하기</a></li><li class="sidebar-sub-header"><a href="/GSM-Service/LIB/schoolInfo.html#기능명세" class="sidebar-link">기능명세</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/GSM-Service/LIB/schoolInfo.html#공통-인자값" class="sidebar-link">공통 인자값</a></li><li class="sidebar-sub-header"><a href="/GSM-Service/LIB/schoolInfo.html#학교-검색-및-기본정보-가져오기" class="sidebar-link">학교 검색 및 기본정보 가져오기</a></li><li class="sidebar-sub-header"><a href="/GSM-Service/LIB/schoolInfo.html#급식식단정보" class="sidebar-link">급식식단정보</a></li><li class="sidebar-sub-header"><a href="/GSM-Service/LIB/schoolInfo.html#일정-관련-정보" class="sidebar-link">일정 관련 정보</a></li><li class="sidebar-sub-header"><a href="/GSM-Service/LIB/schoolInfo.html#학교-학과-정보" class="sidebar-link">학교 학과 정보</a></li><li class="sidebar-sub-header"><a href="/GSM-Service/LIB/schoolInfo.html#시간표-정보" class="sidebar-link">시간표 정보</a></li><li class="sidebar-sub-header"><a href="/GSM-Service/LIB/schoolInfo.html#반-정보-출력" class="sidebar-link">반 정보 출력</a></li></ul></li></ul></li><li><a href="/GSM-Service/LIB/school-info.html" class="sidebar-link">school-info(TypeScript, 2기)</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>임베디드</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>디스코드 봇</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="schoolinfo-python-4기"><a href="#schoolinfo-python-4기" class="header-anchor">#</a> SchoolInfo(Python, 4기)</h1> <p><code>Neis API</code> 기반으로 학교 정보, 급식 정보, 반 정보, 시간표 정보 등 제공 비동기 서비스<br>
+이슈와 풀리퀘스트 환영합니다 😄</p> <p>@ github url : <a href="https://github.com/sunrabbit123/school-info_python" target="_blank" rel="noopener noreferrer">여기<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="설치하기"><a href="#설치하기" class="header-anchor">#</a> 설치하기</h2> <div class="language-sh extra-class"><pre class="language-sh"><code>pip <span class="token function">install</span> schoolInfo 
+</code></pre></div><h2 id="시작하기"><a href="#시작하기" class="header-anchor">#</a> 시작하기</h2> <p><a href="./tests/test.py">다음은 예시코드입니다.</a></p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">import</span> asyncio
+
+<span class="token keyword">import</span> schoolInfo
+
+
+<span class="token keyword">async</span> <span class="token keyword">def</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    print_end <span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;\n\n\n\n\n&quot;</span>
+    school_data<span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>search<span class="token punctuation">(</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>school_data<span class="token punctuation">,</span> end<span class="token operator">=</span>print_end<span class="token punctuation">)</span>
+    <span class="token comment"># 학교를 검색하는 구문입니다.</span>
+
+    meal_data<span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>meal<span class="token punctuation">(</span>
+        ATPT_OFCDC_SC_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        SD_SCHUL_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>meal_data<span class="token punctuation">,</span> end<span class="token operator">=</span>print_end<span class="token punctuation">)</span>
+    <span class="token comment"># 급식을 가져오는 구문입니다.</span>
+
+    schedule_data<span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>schedule<span class="token punctuation">(</span>
+        ATPT_OFCDC_SC_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        SD_SCHUL_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>schedule_data<span class="token punctuation">,</span> end<span class="token operator">=</span>print_end<span class="token punctuation">)</span>
+    <span class="token comment"># 스케쥴을 가져오는 구문입니다.</span>
+
+    major_data<span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>major<span class="token punctuation">(</span>
+        ATPT_OFCDC_SC_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        SD_SCHUL_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>major_data<span class="token punctuation">,</span> end<span class="token operator">=</span>print_end<span class="token punctuation">)</span>
+    <span class="token comment"># 학교 학과 정보를 가져오는 구문입니다.</span>
+
+    class_data<span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>classes<span class="token punctuation">(</span>
+        ATPT_OFCDC_SC_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        SD_SCHUL_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>class_data<span class="token punctuation">,</span> end<span class="token operator">=</span>print_end<span class="token punctuation">)</span>
+    <span class="token comment"># 반정보를 가져오는 구문입니다.</span>
+
+    timetable_data <span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>timetable<span class="token punctuation">(</span>
+        ATPT_OFCDC_SC_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        SD_SCHUL_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        SCHUL_KND_SC_NM<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;SCHUL_KND_SC_NM&quot;</span><span class="token punctuation">]</span>
+    <span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>timetable_data<span class="token punctuation">,</span> end<span class="token operator">=</span>print_end<span class="token punctuation">)</span>
+    <span class="token comment"># 시간표를 가져오는 구문입니다.</span>
+
+<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">&quot;__main__&quot;</span><span class="token punctuation">:</span>
+    loop <span class="token operator">=</span> asyncio<span class="token punctuation">.</span>get_event_loop<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    loop<span class="token punctuation">.</span>run_until_complete<span class="token punctuation">(</span>main<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="기능명세"><a href="#기능명세" class="header-anchor">#</a> 기능명세</h2> <h3 id="공통-인자값"><a href="#공통-인자값" class="header-anchor">#</a> 공통 인자값</h3> <table><thead><tr><th style="text-align:center;">Name</th> <th style="text-align:center;">Type</th> <th style="text-align:center;">Description</th></tr></thead> <tbody><tr><td style="text-align:center;"><code>ATPT_OFCDC_SC_CODE</code></td> <td style="text-align:center;">string</td> <td style="text-align:center;">시도교육청코드</td></tr> <tr><td style="text-align:center;"><code>SD_SCHUL_CODE</code></td> <td style="text-align:center;">string</td> <td style="text-align:center;">표준학교코드</td></tr></tbody></table> <h3 id="학교-검색-및-기본정보-가져오기"><a href="#학교-검색-및-기본정보-가져오기" class="header-anchor">#</a> 학교 검색 및 기본정보 가져오기</h3> <div class="language-python extra-class"><pre class="language-python"><code>school_data <span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>search<span class="token punctuation">(</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">,</span> auth_key<span class="token operator">=</span><span class="token punctuation">{</span>your auth key<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>school_data<span class="token punctuation">)</span>
+</code></pre></div><ol><li>First args : 검색값</li> <li>auth_key : <a href="https://open.neis.go.kr/portal/guide/actKeyPage.do" target="_blank" rel="noopener noreferrer">https://open.neis.go.kr/portal/guide/actKeyPage.do<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <ul><li>Neis API의 인증키값입니다.</li></ul></li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>
+   <span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;F10&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 시도 교육청 코드</span>
+   <span class="token string">&quot;ATPT_OFCDC_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주광역시교육청&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 시도교육청 명</span>
+   <span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;7380292&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 표준학교코드</span>
+   <span class="token string">&quot;SCHUL_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 학교명</span>
+   <span class="token string">&quot;ENG_SCHUL_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;Gwangju Software Meister High School&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 영문학교명</span>
+   <span class="token string">&quot;SCHUL_KND_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;고등학교&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 학교 구분</span>
+   <span class="token string">&quot;LCTN_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주광역시&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 소재지명</span>
+   <span class="token string">&quot;JU_ORG_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주광역시교육청&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 관할조직명</span>
+   <span class="token string">&quot;FOND_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;공립&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 설립명</span>
+   <span class="token string">&quot;ORG_RDNZC&quot;</span><span class="token operator">:</span><span class="token string">&quot;62423 &quot;</span><span class="token punctuation">,</span> <span class="token comment">// 도로명 우편번호</span>
+   <span class="token string">&quot;ORG_RDNMA&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주광역시 광산구 상무대로 312&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 도로명 주소</span>
+   <span class="token string">&quot;ORG_RDNDA&quot;</span><span class="token operator">:</span><span class="token string">&quot;(송정동)&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 도로명 상세주소</span>
+   <span class="token string">&quot;ORG_TELNO&quot;</span><span class="token operator">:</span><span class="token string">&quot;062-949-6800&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 전화번호</span>
+   <span class="token string">&quot;HMPG_ADRES&quot;</span><span class="token operator">:</span><span class="token string">&quot;http://gsm.gen.hs.kr/&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 홈페이지 주소</span>
+   <span class="token string">&quot;COEDU_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;남여공학&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 남녀공학구분</span>
+   <span class="token string">&quot;ORG_FAXNO&quot;</span><span class="token operator">:</span><span class="token string">&quot;062-944-8019&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 팩스번호</span>
+   <span class="token string">&quot;HS_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;특목고&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 고등학교 구분명</span>
+   <span class="token string">&quot;INDST_SPECL_CCCCL_EXST_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;N&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 산업체특별학급존재여부</span>
+   <span class="token string">&quot;HS_GNRL_BUSNS_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;전문계&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 고등학교 계열 구분</span>
+   <span class="token string">&quot;SPCLY_PURPS_HS_ORD_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;None&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 특수목적고등학교 계열명</span>
+   <span class="token string">&quot;ENE_BFE_SEHF_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;전기&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 입시전후기 구분명</span>
+   <span class="token string">&quot;DGHT_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;주간&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 주야구분명</span>
+   <span class="token string">&quot;FOND_YMD&quot;</span><span class="token operator">:</span><span class="token string">&quot;19540529&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 설립일자</span>
+   <span class="token string">&quot;FOAS_MEMRD&quot;</span><span class="token operator">:</span><span class="token string">&quot;19540601&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 개교기념일</span>
+   <span class="token string">&quot;LOAD_DTM&quot;</span><span class="token operator">:</span><span class="token string">&quot;20210319141311&quot;</span> <span class="token comment">//적재일시</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="급식식단정보"><a href="#급식식단정보" class="header-anchor">#</a> 급식식단정보</h3> <div class="language-python extra-class"><pre class="language-python"><code>school_data <span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>search<span class="token punctuation">(</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">)</span>
+meal_data<span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>meal<span class="token punctuation">(</span>
+    ATPT_OFCDC_SC_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    SD_SCHUL_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    MLSV_YMD<span class="token operator">=</span>datetime<span class="token punctuation">.</span>datetime<span class="token punctuation">(</span><span class="token number">2021</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>meal_data<span class="token punctuation">)</span>
+</code></pre></div><ol><li>MLSV_YMD : 급식을 구할 해당 날짜입니다.</li></ol> <p><strong>결과값</strong></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">[</span>
+   <span class="token punctuation">{</span>
+      <span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;F10&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 시도교육청 코드</span>
+      <span class="token string">&quot;ATPT_OFCDC_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주광역시교육청&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 시도교육청 명</span>
+      <span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;7380292&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 표준학교코드</span>
+      <span class="token string">&quot;SCHUL_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 학교명</span>
+      <span class="token string">&quot;MMEAL_SC_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 식사코드</span>
+      <span class="token string">&quot;MMEAL_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;조식&quot;</span><span class="token punctuation">,</span> <span class="token comment">//식사명</span>
+      <span class="token string">&quot;MLSV_YMD&quot;</span><span class="token operator">:</span><span class="token string">&quot;20211010&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 급식일자</span>
+      <span class="token string">&quot;MLSV_FGR&quot;</span><span class="token operator">:</span><span class="token string">&quot;228&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 급식인원 수</span>
+      <span class="token string">&quot;DDISH_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;백미밥..바지락무국/우유계란찜...1.9.13.*돼지불고기5.6.10.13.깍두기9.13.우리밀촉촉마들렌..1.2.5.6.13.&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 요리 명</span>
+      <span class="token string">&quot;ORPLC_INFO&quot;</span><span class="token operator">:</span><span class="token string">&quot;쌀 : 국내산김치류 : 국내산고춧가루(김치류) : 국내산쇠고기(종류) : 국내산(한우)돼지고기 : 국내산닭고기 : 국내산오리고기 : 국내산쇠고기 식육가공품 : 국내산돼지고기 식육가공품 : 국내산닭고기 식육가공품 : 국내산오리고기 가공품 : 국내산낙지 : 국내산고등어 : 국내산갈치 : 국내산오징어 : 국내산꽃게 : 국내산참조기 : 국내산콩 : 국내산&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 원산지 정보</span>
+      <span class="token string">&quot;CAL_INFO&quot;</span><span class="token operator">:</span><span class="token string">&quot;740.4 Kcal&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 칼로리 정보</span>
+      <span class="token string">&quot;NTR_INFO&quot;</span><span class="token operator">:</span><span class="token string">&quot;탄수화물(g) : 88.6단백질(g) : 52.2지방(g) : 20.1비타민A(R.E) : 211.0티아민(mg) : 0.9리보플라빈(mg) : 0.7비타민C(mg) : 7.2칼슘(mg) : 221.3철분(mg) : 6.5&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 영양분 정보</span>
+      <span class="token string">&quot;MLSV_FROM_YMD&quot;</span><span class="token operator">:</span><span class="token string">&quot;20211010&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 급식시작일자</span>
+      <span class="token string">&quot;MLSV_TO_YMD&quot;</span><span class="token operator">:</span><span class="token string">&quot;20211010&quot;</span> <span class="token comment">// 급식 종료 일자</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token punctuation">.</span>
+   <span class="token punctuation">.</span>
+   <span class="token punctuation">.</span>
+   <span class="token punctuation">{</span>
+      <span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;F10&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;ATPT_OFCDC_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주광역시교육청&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;7380292&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SCHUL_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;MMEAL_SC_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;3&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;MMEAL_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;석식&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;MLSV_YMD&quot;</span><span class="token operator">:</span><span class="token string">&quot;20211010&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;MLSV_FGR&quot;</span><span class="token operator">:</span><span class="token string">&quot;238&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;DDISH_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;오므라이스*1.2.5.6.10.12.13.15.16.18.근대된장국...5.6.13.삼색나물무침..수제오징어상추튀김/양념장..1.5.6.17.깍두기...9.13.&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;ORPLC_INFO&quot;</span><span class="token operator">:</span><span class="token string">&quot;쌀 : 국내산김치류 : 국내산고춧가루(김치류) : 국내산쇠고기(종류) : 국내산(한우)돼지고기 : 국내산닭고기 : 국내산오리고기 : 국내산쇠고기 식육가공품 : 국내산돼지고기 식육가공품 : 국내산닭고기 식육가공품 : 국내산오리고기 가 공품 : 국내산낙지 : 국내산고등어 : 국내산갈치 : 국내산오징어 : 국내산꽃게 : 국내산참조기 : 국내산콩 : 국내산&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;CAL_INFO&quot;</span><span class="token operator">:</span><span class="token string">&quot;777.0 Kcal&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;NTR_INFO&quot;</span><span class="token operator">:</span><span class="token string">&quot;탄수화물(g) : 116.0단백질(g) : 42.4지방(g) : 16.8비타민A(R.E) : 446.3티아민(mg) : 0.4리보 플라빈(mg) : 0.8비타민C(mg) : 23.8칼슘(mg) : 203.3철분(mg) : 4.8&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;MLSV_FROM_YMD&quot;</span><span class="token operator">:</span><span class="token string">&quot;20211010&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;MLSV_TO_YMD&quot;</span><span class="token operator">:</span><span class="token string">&quot;20211010&quot;</span>
+   <span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+</code></pre></div><h3 id="일정-관련-정보"><a href="#일정-관련-정보" class="header-anchor">#</a> 일정 관련 정보</h3> <div class="language-python extra-class"><pre class="language-python"><code>school_data <span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>search<span class="token punctuation">(</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">)</span>
+schedule_data <span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>schedule<span class="token punctuation">(</span>
+    ATPT_OFCDC_SC_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    SD_SCHUL_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token punctuation">]</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>schedule_data<span class="token punctuation">)</span>
+</code></pre></div><p><strong>결과값</strong></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">[</span>
+   <span class="token punctuation">{</span>
+      <span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;F10&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;ATPT_OFCDC_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주광역시교육청&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;7380292&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SCHUL_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;AY&quot;</span><span class="token operator">:</span><span class="token string">&quot;2020&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;DGHT_CRSE_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;주간&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SCHUL_CRSE_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;고등학교&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SBTR_DD_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;공휴일&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;AA_YMD&quot;</span><span class="token operator">:</span><span class="token string">&quot;20200301&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;EVENT_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;3・1절&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;EVENT_CNTNT&quot;</span><span class="token operator">:</span><span class="token string">&quot;None&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;ONE_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;Y&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;TW_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;Y&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;THREE_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;Y&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;FR_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;FIV_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SIX_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;LOAD_DTM&quot;</span><span class="token operator">:</span><span class="token string">&quot;20210414004454&quot;</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token punctuation">.</span>
+   <span class="token punctuation">.</span>
+   <span class="token punctuation">.</span>
+   <span class="token punctuation">{</span>
+      <span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;F10&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;ATPT_OFCDC_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주광역시교육청&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token operator">:</span><span class="token string">&quot;7380292&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SCHUL_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;AY&quot;</span><span class="token operator">:</span><span class="token string">&quot;2020&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;DGHT_CRSE_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;주간&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SCHUL_CRSE_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;고등학교&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SBTR_DD_SC_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;휴업일&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;AA_YMD&quot;</span><span class="token operator">:</span><span class="token string">&quot;20200305&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;EVENT_NM&quot;</span><span class="token operator">:</span><span class="token string">&quot;코로나-19 휴업일&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;EVENT_CNTNT&quot;</span><span class="token operator">:</span><span class="token string">&quot;None&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;ONE_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;Y&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;TW_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;Y&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;THREE_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;Y&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;FR_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;FIV_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;SIX_GRADE_EVENT_YN&quot;</span><span class="token operator">:</span><span class="token string">&quot;*&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;LOAD_DTM&quot;</span><span class="token operator">:</span><span class="token string">&quot;20210414004454&quot;</span>
+   <span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+</code></pre></div><h3 id="학교-학과-정보"><a href="#학교-학과-정보" class="header-anchor">#</a> 학교 학과 정보</h3> <div class="language-python extra-class"><pre class="language-python"><code>school_data <span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>search<span class="token punctuation">(</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">)</span>
+major_data <span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>major<span class="token punctuation">(</span>
+    ATPT_OFCDC_SC_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    SD_SCHUL_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token punctuation">]</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>major_data<span class="token punctuation">)</span>
+</code></pre></div><p><strong>결과값</strong></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">[</span>
+    <span class="token punctuation">{</span><span class="token string">'ATPT_OFCDC_SC_CODE'</span><span class="token operator">:</span> <span class="token string">'F10'</span><span class="token punctuation">,</span>
+    <span class="token string">'ATPT_OFCDC_SC_NM'</span><span class="token operator">:</span> <span class="token string">'광주광역시교육청'</span><span class="token punctuation">,</span>
+    <span class="token string">'SD_SCHUL_CODE'</span><span class="token operator">:</span> <span class="token string">'7380292'</span><span class="token punctuation">,</span>
+    <span class="token string">'SCHUL_NM'</span><span class="token operator">:</span> <span class="token string">'광주소프트웨어마이스터고등학교'</span><span class="token punctuation">,</span>
+    <span class="token string">'DGHT_CRSE_SC_NM'</span><span class="token operator">:</span> <span class="token string">'주간'</span><span class="token punctuation">,</span>
+    <span class="token string">'ORD_SC_NM'</span><span class="token operator">:</span> <span class="token string">'공업계'</span><span class="token punctuation">,</span>
+    <span class="token string">'DDDEP_NM'</span><span class="token operator">:</span> <span class="token string">'SW개발과'</span><span class="token punctuation">,</span>
+    <span class="token string">'LOAD_DTM'</span><span class="token operator">:</span> <span class="token string">'20210401004927'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span><span class="token string">'ATPT_OFCDC_SC_CODE'</span><span class="token operator">:</span> <span class="token string">'F10'</span><span class="token punctuation">,</span>
+    <span class="token string">'ATPT_OFCDC_SC_NM'</span><span class="token operator">:</span> <span class="token string">'광주광역시교육청'</span><span class="token punctuation">,</span>
+    <span class="token string">'SD_SCHUL_CODE'</span><span class="token operator">:</span> <span class="token string">'7380292'</span><span class="token punctuation">,</span>
+    <span class="token string">'SCHUL_NM'</span><span class="token operator">:</span> <span class="token string">'광주소프트웨어마이스터고등학교'</span><span class="token punctuation">,</span>
+    <span class="token string">'DGHT_CRSE_SC_NM'</span><span class="token operator">:</span> <span class="token string">'주간'</span><span class="token punctuation">,</span>
+    <span class="token string">'ORD_SC_NM'</span><span class="token operator">:</span> <span class="token string">'공업계'</span><span class="token punctuation">,</span>
+    <span class="token string">'DDDEP_NM'</span><span class="token operator">:</span> <span class="token string">'소프트웨어공통과정'</span><span class="token punctuation">,</span>
+    <span class="token string">'LOAD_DTM'</span><span class="token operator">:</span> <span class="token string">'20210401004927'</span>
+    <span class="token punctuation">}</span>
+    <span class="token punctuation">.</span>
+    <span class="token punctuation">.</span>
+    <span class="token punctuation">.</span>
+<span class="token punctuation">]</span>
+</code></pre></div><h3 id="시간표-정보"><a href="#시간표-정보" class="header-anchor">#</a> 시간표 정보</h3> <div class="language-python extra-class"><pre class="language-python"><code>school_data <span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>search<span class="token punctuation">(</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">)</span>
+timetable_data <span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>timetable<span class="token punctuation">(</span>
+    ATPT_OFCDC_SC_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    SD_SCHUL_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token punctuation">]</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>timetable_data<span class="token punctuation">)</span>
+</code></pre></div><p><strong>결과값</strong></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token string">'ATPT_OFCDC_SC_CODE'</span><span class="token operator">:</span> <span class="token string">'F10'</span><span class="token punctuation">,</span>
+        <span class="token string">'ATPT_OFCDC_SC_NM'</span><span class="token operator">:</span> <span class="token string">'광주광역시교육청'</span><span class="token punctuation">,</span>
+        <span class="token string">'SD_SCHUL_CODE'</span><span class="token operator">:</span> <span class="token string">'7380292'</span><span class="token punctuation">,</span>
+        <span class="token string">'SCHUL_NM'</span><span class="token operator">:</span> <span class="token string">'광주소프트웨어마이스터고등학교'</span><span class="token punctuation">,</span>
+        <span class="token string">'AY'</span><span class="token operator">:</span> <span class="token string">'2020'</span><span class="token punctuation">,</span>
+        <span class="token string">'SEM'</span><span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+        <span class="token string">'ALL_TI_YMD'</span><span class="token operator">:</span> <span class="token string">'20200302'</span><span class="token punctuation">,</span>
+        <span class="token string">'DGHT_CRSE_SC_NM'</span><span class="token operator">:</span> <span class="token string">'주간'</span><span class="token punctuation">,</span>
+        <span class="token string">'ORD_SC_NM'</span><span class="token operator">:</span> <span class="token string">'공업계'</span><span class="token punctuation">,</span>
+        <span class="token string">'DDDEP_NM'</span><span class="token operator">:</span> <span class="token string">'SW개발과'</span><span class="token punctuation">,</span>
+        <span class="token string">'GRADE'</span><span class="token operator">:</span> <span class="token string">'2'</span><span class="token punctuation">,</span>
+        <span class="token string">'CLRM_NM'</span><span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+        <span class="token string">'CLASS_NM'</span><span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+        <span class="token string">'PERIO'</span><span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+        <span class="token string">'ITRT_CNTNT'</span><span class="token operator">:</span> <span class="token string">'코로나-19 휴업일'</span><span class="token punctuation">,</span>
+        <span class="token string">'LOAD_DTM'</span><span class="token operator">:</span> <span class="token string">'20200827165627'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        <span class="token string">'ATPT_OFCDC_SC_CODE'</span><span class="token operator">:</span> <span class="token string">'F10'</span><span class="token punctuation">,</span>
+        <span class="token string">'ATPT_OFCDC_SC_NM'</span><span class="token operator">:</span> <span class="token string">'광주광역시교육청'</span><span class="token punctuation">,</span>
+        <span class="token string">'SD_SCHUL_CODE'</span><span class="token operator">:</span> <span class="token string">'7380292'</span><span class="token punctuation">,</span>
+        <span class="token string">'SCHUL_NM'</span><span class="token operator">:</span> <span class="token string">'광주소프트웨어마이스터고등학교'</span><span class="token punctuation">,</span>
+        <span class="token string">'AY'</span><span class="token operator">:</span> <span class="token string">'2020'</span><span class="token punctuation">,</span>
+        <span class="token string">'SEM'</span><span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+        <span class="token string">'ALL_TI_YMD'</span><span class="token operator">:</span> <span class="token string">'20200302'</span><span class="token punctuation">,</span>
+        <span class="token string">'DGHT_CRSE_SC_NM'</span><span class="token operator">:</span> <span class="token string">'주간'</span><span class="token punctuation">,</span>
+        <span class="token string">'ORD_SC_NM'</span><span class="token operator">:</span> <span class="token string">'공업계'</span><span class="token punctuation">,</span>
+        <span class="token string">'DDDEP_NM'</span><span class="token operator">:</span> <span class="token string">'SW개발과'</span><span class="token punctuation">,</span>
+        <span class="token string">'GRADE'</span><span class="token operator">:</span> <span class="token string">'2'</span><span class="token punctuation">,</span>
+        <span class="token string">'CLRM_NM'</span><span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+        <span class="token string">'CLASS_NM'</span><span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+        <span class="token string">'PERIO'</span><span class="token operator">:</span> <span class="token string">'2'</span><span class="token punctuation">,</span>
+        <span class="token string">'ITRT_CNTNT'</span><span class="token operator">:</span> <span class="token string">'코로나-19 휴업일'</span><span class="token punctuation">,</span>
+        <span class="token string">'LOAD_DTM'</span><span class="token operator">:</span> <span class="token string">'20200827165627'</span>
+    <span class="token punctuation">}</span> <span class="token operator">...</span>
+<span class="token punctuation">]</span>
+</code></pre></div><h3 id="반-정보-출력"><a href="#반-정보-출력" class="header-anchor">#</a> 반 정보 출력</h3> <div class="language-python extra-class"><pre class="language-python"><code>school_data <span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>search<span class="token punctuation">(</span><span class="token string">&quot;광주소프트웨어마이스터고등학교&quot;</span><span class="token punctuation">)</span>
+class_data <span class="token punctuation">:</span> <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token keyword">await</span> schoolInfo<span class="token punctuation">.</span>classes<span class="token punctuation">(</span>
+    ATPT_OFCDC_SC_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;ATPT_OFCDC_SC_CODE&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    SD_SCHUL_CODE<span class="token operator">=</span>school_data<span class="token punctuation">[</span><span class="token string">&quot;SD_SCHUL_CODE&quot;</span><span class="token punctuation">]</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>class_data<span class="token punctuation">)</span>
+</code></pre></div><p><strong>결과값</strong></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token string">'ATPT_OFCDC_SC_CODE'</span><span class="token operator">:</span> <span class="token string">'F10'</span><span class="token punctuation">,</span>
+        <span class="token string">'ATPT_OFCDC_SC_NM'</span><span class="token operator">:</span> <span class="token string">'광주광역시교육청'</span><span class="token punctuation">,</span>
+        <span class="token string">'SD_SCHUL_CODE'</span><span class="token operator">:</span> <span class="token string">'7380292'</span><span class="token punctuation">,</span>
+        <span class="token string">'SCHUL_NM'</span><span class="token operator">:</span> <span class="token string">'광주소프트웨어마이스터고등학교'</span><span class="token punctuation">,</span>
+        <span class="token string">'AY'</span><span class="token operator">:</span> <span class="token string">'2020'</span><span class="token punctuation">,</span>
+        <span class="token string">'GRADE'</span><span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+        <span class="token string">'DGHT_CRSE_SC_NM'</span><span class="token operator">:</span> <span class="token string">'주간'</span><span class="token punctuation">,</span>
+        <span class="token string">'SCHUL_CRSE_SC_NM'</span><span class="token operator">:</span> <span class="token string">'고등학교'</span><span class="token punctuation">,</span>
+        <span class="token string">'ORD_SC_NM'</span><span class="token operator">:</span> <span class="token string">'공업계'</span><span class="token punctuation">,</span>
+        <span class="token string">'DDDEP_NM'</span><span class="token operator">:</span> <span class="token string">'소프트웨어공통과정'</span><span class="token punctuation">,</span>
+        <span class="token string">'CLASS_NM'</span><span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+        <span class="token string">'LOAD_DTM'</span><span class="token operator">:</span> <span class="token string">'20210401002948'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        <span class="token string">'ATPT_OFCDC_SC_CODE'</span><span class="token operator">:</span> <span class="token string">'F10'</span><span class="token punctuation">,</span>
+        <span class="token string">'ATPT_OFCDC_SC_NM'</span><span class="token operator">:</span> <span class="token string">'광주광역시교육청'</span><span class="token punctuation">,</span>
+        <span class="token string">'SD_SCHUL_CODE'</span><span class="token operator">:</span> <span class="token string">'7380292'</span><span class="token punctuation">,</span>
+        <span class="token string">'SCHUL_NM'</span><span class="token operator">:</span> <span class="token string">'광주소프트웨어마이스터고등학교'</span><span class="token punctuation">,</span>
+        <span class="token string">'AY'</span><span class="token operator">:</span> <span class="token string">'2020'</span><span class="token punctuation">,</span>
+        <span class="token string">'GRADE'</span><span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+        <span class="token string">'DGHT_CRSE_SC_NM'</span><span class="token operator">:</span> <span class="token string">'주간'</span><span class="token punctuation">,</span>
+        <span class="token string">'SCHUL_CRSE_SC_NM'</span><span class="token operator">:</span> <span class="token string">'고등학교'</span><span class="token punctuation">,</span>
+        <span class="token string">'ORD_SC_NM'</span><span class="token operator">:</span> <span class="token string">'공업계'</span><span class="token punctuation">,</span>
+        <span class="token string">'DDDEP_NM'</span><span class="token operator">:</span> <span class="token string">'소프트웨어공통과정'</span><span class="token punctuation">,</span>
+        <span class="token string">'CLASS_NM'</span><span class="token operator">:</span> <span class="token string">'2'</span><span class="token punctuation">,</span>
+        <span class="token string">'LOAD_DTM'</span><span class="token operator">:</span> <span class="token string">'20210401002948'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> etc <span class="token operator">...</span> 
+</code></pre></div><p>@ 개발자 : 오병진</p> <div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">7/13/2021, 5:43:09 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/GSM-Service/APP/Desktop/bobnaenwa.html" class="prev">
+        밥내놔(데스크탑 앱, 4기)
+      </a></span> <span class="next"><a href="/GSM-Service/LIB/school-info.html">
+        school-info(TypeScript, 2기)
+      </a>
+      →
+    </span></p></div> </main> <header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/GSM-Service/" class="home-link router-link-active"><img src="https://user-images.githubusercontent.com/64676070/124141211-30acac80-dac4-11eb-93e3-d4d4165f1b74.png" alt="GSM-Service" class="logo"> <span class="site-name can-hide">GSM-Service</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/GSM-Service/" class="nav-link">
+  About
+</a></div><div class="nav-item"><a href="/GSM-Service/contribute.html" class="nav-link">
+  Contribute
+</a></div><div class="nav-item"><a href="https://github.com/sunrabbit123/GSM-Service/tree/main" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div></div> <footer class="siteFooter"><div class="container"><p class="siteFooterContact">
+        qudwls185@naver.com .
+        +82-10-5185-8462 .
+        <a href="https://github.com/sunrabbit123" target="_blank">GitHub</a> .
+        <a href="https://github.com/sunrabbit123/GSM-Service/" target="_blank">Repository</a></p></div></footer></div><div class="global-ui"></div></div>
+    <script src="/GSM-Service/assets/js/app.21cb7742.js" defer></script><script src="/GSM-Service/assets/js/2.26211653.js" defer></script><script src="/GSM-Service/assets/js/18.6cd6b64b.js" defer></script><script src="/GSM-Service/assets/js/10.22b699b2.js" defer></script><script src="/GSM-Service/assets/js/3.06aed8db.js" defer></script>
+  </body>
+</html>
