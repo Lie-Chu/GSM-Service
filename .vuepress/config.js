@@ -11,6 +11,14 @@ module.exports = {
     sidebar,
     nav: [
       {
+        text: "About",
+        link: "/",
+      },
+      {
+        text: "Contribute",
+        link: "/contribute",
+      },
+      {
         text: "GitHub",
         link: "https://github.com/sunrabbit123/GSM-Service/tree/main",
       },

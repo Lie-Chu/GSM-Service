@@ -10,9 +10,6 @@ const getAPP = (v) => { return `APP/${v}/`};
 
 module.exports = [
     {
-      title: "Main", path: '/', sidebarDepth: 2,
-    },
-    {
       title: "웹 서비스",
       children : WebList.map(f => `WEB/${f}`),
       sidebarDepth: 2
