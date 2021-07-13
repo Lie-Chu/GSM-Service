@@ -1,4 +1,4 @@
-const WebList = ["WhatIsGit"]; // 웹 사이트
+const WebList = ["WhatIsGit", "GSM-Service"]; // 웹 사이트
 const LibList = ["schoolInfo", "school-info"]; // 라이브러리 또는 패키지
 const DesktopAppList = ["bobnaenwa"]; // 데스크탑 앱
 const AndoroidAppList = []; // 안드로이드 앱
