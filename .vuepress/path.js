@@ -6,7 +6,7 @@ const IosAppList = []; // IOS 앱
 const EmbList = []; // 임베디드 
 const BotList = ["shaki", "gogo"]; // 봇
 
-const getAPP = (v) => { return `app/${v}/`};
+const getAPP = (v) => { return `APP/${v}/`};
 
 module.exports = [
     {
@@ -14,7 +14,7 @@ module.exports = [
     },
     {
       title: "웹 서비스",
-      children : WebList.map(f => `web/${f}`),
+      children : WebList.map(f => `WEB/${f}`),
       sidebarDepth: 2
     },
     {
@@ -39,17 +39,17 @@ module.exports = [
     },
     {
       title : "라이브러리",
-      children : LibList.map(f => `lib/${f}`),
+      children : LibList.map(f => `LIB/${f}`),
       sidebarDepth: 2
     },
     {
       title : "임베디드",
-      children : EmbList.map(f => `emb/${f}`),
+      children : EmbList.map(f => `EMB/${f}`),
       sidebarDepth: 2
     },
     {
       title: "디스코드 봇",
-      children : BotList.map(f => `bot/${f}`),
+      children : BotList.map(f => `BOT/${f}`),
       sidebarDepth: 2
     },
 ]
